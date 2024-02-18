@@ -2,8 +2,9 @@ import streamlit as st
 import pandas as pd
 import pickle
 import time
+knn_model = pickle.load(open("knn_Model.pickle", "rb"))
 
-
+knn_Model.pickle
 # Noms des caractéristiques utilisées lors de l'ajustement du modèle
 feature_names = ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService',
                  'MultipleLines', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',

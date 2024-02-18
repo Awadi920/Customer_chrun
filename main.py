@@ -4,7 +4,7 @@ import pickle
 import time
 
 # Charger le modèle KNN
-knn_model = pickle.load(open("C:/Users/Amine/Desktop/Projet_Fouille/streamlit/knn_Model.pickle", "rb"))
+knn_model = pickle.load(open("knn_Model.pickle", "rb"))
 
 # Noms des caractéristiques utilisées lors de l'ajustement du modèle
 feature_names = ['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure', 'PhoneService',
